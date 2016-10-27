@@ -1,0 +1,10 @@
+<resources>
+
+<string name="today">今天</string>
+<string name="txt_date">2018.10.1</string>
+<string name="txt_week">星期二</string>
+<string name="txt_day">1</string>
+<string name="txt_ganzhi">戊戌年</string>
+<string name="txt_shengxiao">【狗年】</string>
+<string name="txt_lunar">八月廿二</string>
+</resources>
