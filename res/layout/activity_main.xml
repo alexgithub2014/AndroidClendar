@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <com.okl.extencalendar.View.CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/rl_right_calendar"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/calendar_right_bg" >
+
+        <TextView
+            android:id="@+id/txt_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/today"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txt_year_monty_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_today"
+            android:layout_marginStart="10dp"
+            android:text="@string/txt_date"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_toEndOf="@id/txt_year_monty_day"
+            android:textColor="#000000"
+            android:textSize="18sp"
+           android:layout_below="@id/txt_today"
+           android:layout_marginStart="10dp"
+            android:text="@string/txt_week"/>
+
+        <TextView
+            android:id="@+id/txt_today_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000"
+            android:textSize="100sp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/txt_day"/>
+
+        <TextView
+            android:id="@+id/txt_ganzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_below="@id/txt_today_num"
+            android:layout_marginStart="20dp"
+            android:text="@string/txt_ganzhi"/>
+
+        <TextView
+            android:id="@+id/txt_shengxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_toEndOf="@id/txt_ganzhi"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_today_num"
+            android:text="@string/txt_shengxiao" />
+
+        <TextView
+            android:id="@+id/txt_lunar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:textSize="20sp"
+            android:textColor="#000000" 
+            android:layout_below="@id/txt_ganzhi"
+            android:layout_marginStart="20dp"
+            android:text="@string/txt_lunar"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="602dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bt_bg" >
+
+        <LinearLayout
+            android:id="@+id/today_date"
+            android:layout_width="301dp"
+            android:layout_height="46dp"
+            android:background="@drawable/bottom_btn"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/Chakanjinri"
+                android:textColor="#C6D5E2"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_date"
+            android:layout_width="301dp"
+            android:layout_height="46dp"
+            android:layout_toEndOf="@id/today_date"
+            android:background="@drawable/bottom_btn"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/Xuanzeriqi"
+                android:textColor="#C6D5E2"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="date_pre_color">#44010101</color>
+    <color name="date_select_color">#66d8ec</color>
+    <color name="date_text_color">#010101</color>
+    <color name="date_other_text_color">#dd918d8d</color>
+    <color name="date_today_text_color">#aaf43ed8</color>
+    <color name="date_weekend_text_color">#f27e9d</color>
+
+    <color name="btn_backgount">#9000</color>
+    <color name="white">#fff</color>
+    <color name="chat_left_tv_color">#333333</color>
+    <color name="main_bg">#1a1a1a</color>
+    <color name="list_bg">#2f3543</color>
+    <color name="help_tv_color">#5b99ff</color>
+    <color name="map_bg">#2f3643</color>
+    <color name="dialog_setting_tv_bg">#4475C6</color>
+    <color name="poi_tv_adder">#7daeff</color>
+    <color name="textColor">#009000</color>
+	<color name="Week_Text_Color">#137DCC</color>
+</resources>
